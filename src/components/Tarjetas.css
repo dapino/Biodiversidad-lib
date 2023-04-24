@@ -1,0 +1,63 @@
+.tarjetas {
+  color: #000;
+  background-color: #fff;
+  border-radius: 16px;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 24px;
+  font-family: Lato, Arial;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 17px;
+  display: flex;
+}
+
+.contenido-imagen {
+  flex-direction: column;
+  row-gap: 24px;
+  display: flex;
+}
+
+.imagen-frailejon {
+  width: 361px;
+  height: 208px;
+  object-fit: cover;
+}
+
+.contenido-texto {
+  flex-direction: column;
+  row-gap: 8px;
+  display: flex;
+}
+
+.convocatorias {
+  text-align: center;
+  color: #444;
+  margin: 3px 12px 2px 1px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.contenido-boton {
+  flex-direction: column;
+  row-gap: 24px;
+  font-size: 1.25rem;
+  display: flex;
+}
+
+.titulo {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-right: 17px;
+  line-height: 24px;
+}
+
+.contenido {
+  margin-right: 16px;
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.button-instance-1 {
+  margin-bottom: 17px;
+}
